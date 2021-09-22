@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<title>YAANTRIX INTERNATIONAL</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body id="myPage">
+ 
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-card">
+    <a href="#" class="w3-bar-item w3-button" style="letter-spacing:1px"><span class="w3-black  w3-padding w3-opacity-min" style="letter-spacing:1px"><b>YAANTRIX</b></span> INTERNATIONAL</a>
+	 <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+    <!-- Float links to the right. Hide them on small screens -->
+
+    <div class="w3-right w3-hide-small" style="padding-right:50px">
+	  <a href="#about" class="w3-bar-item w3-button" style="letter-spacing:1px">About</a>
+	 <div class="w3-dropdown-hover"> 
+       <a href="#projects"><button class="w3-button">Services</button></a>
+	   <div class="w3-dropdown-content w3-bar-block w3-border w3-black">
+	    <a href="./MEPDesignConsultant.html" class="w3-bar-item w3-button" style="letter-spacing:1px">MEPDesign Consulant</a>
+		<a href="./EngineeringDesign.html" class="w3-bar-item w3-button" style="letter-spacing:1px">EngineeringDesignDrafting</a>
+		<a href="./ProcurementServices.html" class="w3-bar-item w3-button" style="letter-spacing:1px">ProcurementServices</a>
+		
+	   </div>     
+    </div>
+	<a href="#contact" class="w3-bar-item w3-button" style="letter-spacing:1px">Contact</a>
+  </div>
+</div>
+<!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" onclick="hidenav()" class="w3-bar-item w3-button" style="letter-spacing:1px">About</a>
+	 <div class="w3-dropdown-hover"> 
+       <a href="#projects"><button class="w3-button" style="letter-spacing:1px">Services</button></a>
+	   <div class="w3-dropdown-content w3-bar-block w3-border w3-black">
+	    <a href="./MEPDesignConsultant.html" class="w3-bar-item w3-button" style="letter-spacing:1px">MEPDesignConsulant</a>
+		<a href="./EngineeringDesign.html" class="w3-bar-item w3-button" style="letter-spacing:1px">EngineeringDesignDrafting</a>
+		<a href="./ProcurementServices.html" class="w3-bar-item w3-button" style="letter-spacing:1px">ProcurementServices</a>
+		
+	   </div>     
+    </div>
+	<a href="#contact" class="w3-bar-item w3-button" onclick="hidenav()" style="letter-spacing:1px">Contact</a>
+   </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-wide w3-animate-opacity" style="width:100%" id="home">
+  <img src="frontpage.jpg" alt="Architecture"  style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>YAANTRIX</b></span> <span class="w3-text-light-grey">INTERNATIONAL</span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<!-- About Section -->
+  <div class="w3-container" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey">About</h3>
+    	<p> Yaantrix International is a group of Electrical and Mechanical Engineers with outstanding expertise in MEP Design consulting, AutoCAD Design Drafting and MEP Procurement services.
+    We firmly believe in maintaining the highest levels of quality and integrity in everything we do and our team will deliver any projects on time and on budget.
+	Our vision is to be a value based global organization, providing customer centric solutions by creating value to the stakeholders.
+  </p></div>
+  
+  <!-- Project Section -->
+ <div class="w3-container" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Services</h3>	
+	<p>We are focused on providing MEP Design Drafting and MEP Procurement Services for residential, commercial and industrial projects</p>
+	<a href="./MEPDesignConsultant.html">
+	<div class="w3-col m3 w3-margin-bottom w3-margin-top w3-border w3-black">
+      <div class="w3-display-container w3-padding" align="center">
+	    <img class="w3-padding" src="Consultant.png" alt="Consulant" style="width:100px">
+        <div class="w3-padding" style="width:fit-content;length:"><b>MEP Design Consultant</b>
+		</div>
+      </div>
+    </div>
+	</a>
+	
+	<a href="./EngineeringDesign.html">
+	<div class="w3-col m3 w3-margin-bottom w3-margin-top w3-border w3-black"> <!--style="background-color:#6495ED"-->
+      <div class="w3-display-container w3-padding" align="center">
+	  <img class="w3-padding" src="Design.png" alt="Design" style="width:100px">
+	  <div class="w3-padding" style="width: fit-content"><b>Engineering Design Drafting</b>
+	  </div>    
+      </div>
+    </div>
+	</a>
+	
+	<a href="./ProcurementServices.html">
+	<div class="w3-col m3 w3-margin-bottom w3-margin-top w3-border w3-black">
+      <div class="w3-display-container w3-padding" align="center">
+	    <img class="w3-padding" src="procurement.png" alt="Procurement" style="width:100px">
+        <div class="w3-padding" style="width:fit-content"><b>Procurement Services</b>
+		</div>
+      </div>
+    </div>
+	</a>
+	
+</div>
+  
+
+
+
+  <!-- Contact Section -->
+  <div class="w3-container" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact us</h3>
+	<h4>yaantrixinternational@gmail.com</h4><h4> +91 9108928384</h4>
+  </div>
+
+
+<!-- End page content -->
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p><a href="./index.html" title="YaantrixInternational" target="_blank" class="w3-hover-text-green">©2021 By Yaantrix International</a></p>
+</footer>
+<script>
+
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+function hidenav(){
+	var x = document.getElementById("navDemo");
+	x.className=x.className.replace(" w3-show", "");
+}
+</script>
+</body>
+</html>

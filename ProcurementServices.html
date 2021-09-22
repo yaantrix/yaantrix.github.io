@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<title>YAANTRIX INTERNATIONAL</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+<!-- Navbar (sit on top) --> 
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-card">
+    <a href="index.html" class="w3-bar-item w3-button" style="letter-spacing:1px"><span class="w3-padding w3-black w3-opacity-min" style="letter-spacing:1px"><b>YAANTRIX</b></span> INTERNATIONAL</a>
+	<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+   <div class="w3-right w3-hide-small" style="padding-right:50px">
+	  <a href="./index.html#about" class="w3-bar-item w3-button" style="letter-spacing:1px">About</a>
+	 <div class="w3-dropdown-hover"> 
+       <a href="./index.html#projects"><button class="w3-button">Services</button></a>
+	   <div class="w3-dropdown-content w3-bar-block w3-border w3-black">
+	    <a href="./MEPDesignConsultant.html" class="w3-bar-item w3-button" style="letter-spacing:1px">MEPDesign Consulant</a>
+		<a href="./EngineeringDesign.html" class="w3-bar-item w3-button" style="letter-spacing:1px">EngineeringDesignDrafting</a>
+		<a href="./ProcurementServices.html" class="w3-bar-item w3-button" style="letter-spacing:1px">ProcurementServices</a>
+		
+	   </div>     
+    </div>
+	<a href="./index.html#contact" class="w3-bar-item w3-button" style="letter-spacing:1px">Contact</a>
+  </div>
+  </div>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="./index.html#about" onclick="hidenav()" class="w3-bar-item w3-button" style="letter-spacing:1px">About</a>
+	 <div class="w3-dropdown-hover"> 
+       <a href="./index.html#projects"><button class="w3-button">Services</button></a>
+	   <div class="w3-dropdown-content w3-bar-block w3-border w3-black">
+	    <a href="./MEPDesignConsultant.html" class="w3-bar-item w3-button" style="letter-spacing:1px">MEPDesignConsulant</a>
+		<a href="./EngineeringDesign.html" class="w3-bar-item w3-button" style="letter-spacing:1px">EngineeringDesignDrafting</a>
+		<a href="./ProcurementServices.html" class="w3-bar-item w3-button" style="letter-spacing:1px">ProcurementServices</a>
+		
+	   </div>     
+    </div>
+	<a href="./index.html#contact" class="w3-bar-item w3-button" onclick="hidenav()" style="letter-spacing:1px">Contact</a>
+   </div>
+</div>
+
+
+  
+<header class="w3-display-container w3-content w3-wide w3-padding-16">
+ <!--h3 class="w3-border-bottom w3-border-light-grey">MEP Design Consultant</h3-->
+</header>
+
+
+<div class="w3-container">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding"><b>Procurement Services</b></h3>	
+	
+	<p class="w3-margin">Yaantrix International provides a full scope of services in procurement assistance starting from Vendor pre-qualification to purchase order preparation. We ensure stringent quality check at every level. Purchase recommendations are made based on total evaluations with no compromise on quality with competitive price.
+</p>
+<p class="w3-margin">Our procurement assistance services include:</p>
+<ul><li>
+Vendor pre-qualification</li>
+<li>Issuing inquiries and receiving offers</li>
+<li>Commercial bid evaluation</li>
+<li>Purchase recommendation</li>
+<li>Purchase order preparation</li>
+</ul>
+<p class="w3-margin">
+For verifying the work progress, we undertake visits to the supplier’s premises for reviewing the Production 
+Schedule and all activities which might impact delivery, such as engineering work, 
+clarification of open issues with the client, provision of raw materials, 
+and of sub-contracted components or activities.
+We focus on adopting a holistic approach that results in seamless work protocol with equal emphasis 
+on both quality and quantity of work. 
+	</p>
+</div>  
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16"> <!--style="position: fixed;bottom: 0;width: 100%;"-->
+  <p><a href="./index.html" title="YaantrixInternational" target="_blank" class="w3-hover-text-green">©2021 By Yaantrix International</a></p>
+</footer>
+<script>
+
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+function hidenav(){
+	var x = document.getElementById("navDemo");
+	x.className=x.className.replace(" w3-show", "");
+}
+</script>
+</body>
+</html>
